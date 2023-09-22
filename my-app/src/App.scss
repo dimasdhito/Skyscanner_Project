@@ -13,6 +13,7 @@
     background-color: $bpk-color-sky-blue;
     background-image: $bpk-primary-gradient;
     color: $bpk-color-white;
+    margin-bottom: $bpk-spacing-lg;
 
     @include bpk-box-shadow-sm;
 
@@ -26,7 +27,6 @@
   }
 
   &__main {
-    padding: $bpk-spacing-xxl;
 
     @include container;
 
@@ -42,4 +42,16 @@
   &__text {
     margin-bottom: $bpk-spacing-sm;
   }
+
+  &__calendar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $bpk-spacing-lg;
+  }
+
+  &__button{
+    margin-bottom: $bpk-spacing-lg;
+  }
+
 }
